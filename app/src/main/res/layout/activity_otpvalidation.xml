@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context="com.usama.ridekaro.views.OTPValidation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlWelcomeScreen"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/ic_rectangle_button"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+                android:id="@+id/tvWelcomeChoose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:fontFamily="@font/productsansregular"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvWelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tvWelcomeChoose"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:fontFamily="@font/productsansregular"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="@string/Login_or_Register"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:fontFamily="@font/productsansregular"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/signInButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_20"
+                android:background="@drawable/google_btn_bg"
+                android:drawableStart="@drawable/googleg_standard_color_18"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/productsansregular"
+                android:padding="10dp"
+                android:text="@string/Continue_with_Google"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_20"
+                android:background="@drawable/fb_btn_bg"
+                android:drawableStart="@drawable/ic_facebook"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/productsansregular"
+                android:padding="10dp"
+                android:text="@string/Continue_with_Facebook"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+<!--            <Button-->
+<!--                android:id="@+id/btnPhoneNumber"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="@dimen/dp_20"-->
+<!--                android:background="@drawable/rect_apple_bg"-->
+<!--                android:drawableStart="@drawable/ic_apple_logo_night"-->
+<!--                android:drawablePadding="10dp"-->
+<!--                android:fontFamily="@font/productsansregular"-->
+<!--                android:padding="10dp"-->
+<!--                android:text="@string/Continue_with_Apple"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="@color/white" />-->
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvor"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:fontFamily="@font/productsansregular"-->
+<!--                android:text="@string/or"-->
+<!--                android:textAllCaps="true"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="@dimen/sp_10"-->
+<!--                android:textStyle="normal" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/mobileNumber"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/dp_50"-->
+<!--                android:layout_below="@+id/tvor"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginStart="@dimen/dp_18"-->
+<!--                android:layout_marginTop="@dimen/dp_18"-->
+<!--                android:layout_marginEnd="@dimen/dp_18"-->
+<!--                android:layout_marginBottom="@dimen/dp_18"-->
+<!--                android:fontFamily="@font/productsansregular"-->
+<!--                android:gravity="center"-->
+<!--                android:backgroundTint="@color/Gray"-->
+<!--                android:background="@drawable/custom_edittext"-->
+<!--                android:hint="@string/enter_phone_number"-->
+<!--                android:inputType="number" />-->
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="@color/mainTheme"
+                android:background="@drawable/custom_edittext"
+                android:fontFamily="@font/productsansregular"
+                android:text="@string/Continue"
+                android:textColor="#fff" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

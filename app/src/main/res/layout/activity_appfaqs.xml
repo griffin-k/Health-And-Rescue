@@ -1,0 +1,192 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/mainTheme"
+    tools:context="com.usama.ridekaro.views.appfaqs"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/faq_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAQS"
+      android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="50px"
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/faq_question1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: How safe is the ambulance booking service?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/faq_answer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A: Our service prioritizes safety, partnering with licensed providers."
+                android:textSize="16sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="50px"
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/faq_question2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: What do I do if I need medical assistance?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/faq_answer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A: Call emergency services immediately or use our app to request an ambulance."
+                android:textSize="16sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="50px"
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/faq_question3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: Are there any medical conditions that may affect ambulance transportation?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/faq_answer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A: Certain medical conditions may require specialized transport or precautions. Contact us for guidance."
+                android:textSize="16sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="50px"
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:id="@+id/faq_question4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: How do I make changes to an ambulance booking?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/faq_answer4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A: You can modify your booking through our app or by contacting our customer support team."
+                android:textSize="16sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="50px"
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/faq_question5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: Why is security important in ambulance services?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/faq_answer5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A: Our service prioritizes safety"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

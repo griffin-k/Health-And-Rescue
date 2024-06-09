@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mainTheme"
+    android:layout_height="match_parent"
+    tools:context="com.usama.ridekaro.driverDash">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/mainTheme"
+            android:layout_weight="1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/icard0"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10px"
+                android:src="@drawable/dashbord" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <ImageView
+                android:id="@+id/icard1"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="10px"
+                android:src="@drawable/rideer" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="400px"
+                android:padding="8dp" />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+            <ImageView
+                android:id="@+id/icard2"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="10px"
+                android:src="@drawable/licence" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Driver Info"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="400px"
+                android:padding="8dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400px"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="If You Have Any Query or Suggestion Plese Feel free to Contact Us"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="20px"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:orientation="horizontal">-->
+
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/card3"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="8dp"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:cardElevation="8dp">-->
+<!--            <ImageView-->
+<!--                android:id="@+id/icard3"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="140dp"-->
+<!--                android:src="@drawable/rideer" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="History"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_marginTop="400px"-->
+<!--                android:padding="8dp" />-->
+
+
+
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/card4"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="8dp"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:cardElevation="4dp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/icard4"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="140dp"-->
+<!--                android:src="@drawable/rideer" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="History"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_marginTop="400px"-->
+<!--                android:padding="8dp" />-->
+
+
+<!--        </androidx.cardview.widget.CardView>-->
+<!--    </LinearLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context=".views.OTPSecondActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlWelcomeScreen"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_175sdp"
+        android:background="@drawable/ic_rectangle_button"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/tvWelcomeChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:fontFamily="@font/productsansregular"
+            android:text="@string/hold_tight_rider_is_on_it_s_way_to_your_location"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvWelcomeChoose"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:fontFamily="@font/productsansregular"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="@string/enter_verification_pin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.5"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/otpTextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/dp_60"
+            android:layout_marginTop="@dimen/dp_50"
+            android:layout_marginEnd="@dimen/dp_60"
+            android:fontFamily="@font/productsansregular"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/waiting_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dp_20"
+            android:fontFamily="@font/productsansregular"
+            android:text="@string/Waiting_for_OTP"
+            android:textColor="@color/Gray" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/verifyButton"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="@dimen/dp_50"
+            android:layout_marginBottom="@dimen/dp_100"
+            android:background="@drawable/rect_round_mob"
+            android:fontFamily="@font/productsansregular"
+            android:text="@string/Continue"
+            android:textColor="#f9d915" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:fontFamily="@font/productsansregular"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+
+
+
+        <item
+            android:id="@+id/nav_payment"
+            android:fontFamily="@font/productsansregular"
+            android:icon="@drawable/payment"
+            android:title="@string/payment_menu" />
+
+        <item
+            android:id="@+id/nav_myRides"
+            android:fontFamily="@font/productsansregular"
+            android:icon="@drawable/right_ambo_png"
+            android:title="@string/my_rides" />
+
+        <item
+            android:id="@+id/nav_inviteFriends"
+            android:fontFamily="@font/productsansregular"
+            android:icon="@drawable/invite"
+            android:title="@string/invite_friends" />
+
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:fontFamily="@font/productsansregular"
+            android:icon="@drawable/noti"
+            android:title="@string/notifications" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:fontFamily="@font/productsansregular"
+            android:icon="@drawable/seting"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/nav_support"
+            android:fontFamily="@font/productsansregular"
+            android:icon="@drawable/support"
+            android:title="@string/support_menu" />
+
+
+    </group>
+
+</menu>
