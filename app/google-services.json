@@ -1,14 +1,13 @@
 {
   "project_info": {
-    "project_number": "659232161346",
-    "firebase_url": "https://health-rescue-db620-default-rtdb.firebaseio.com",
-    "project_id": "health-rescue-db620",
-    "storage_bucket": "health-rescue-db620.appspot.com"
+    "project_number": "386307141841",
+    "project_id": "health-53f6b",
+    "storage_bucket": "health-53f6b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:659232161346:android:689f9b609b3c6f65c9b7db",
+        "mobilesdk_app_id": "1:386307141841:android:513407821546d3adfdd5f0",
         "android_client_info": {
           "package_name": "com.usama.ridekaro"
         }
@@ -16,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDr8aYGAHIzfNBqnemls_x05hjnpHy1GvM"
+          "current_key": "AIzaSyAQdHEn7VTrv7edJDpX4riQL97StVlgoFA"
         }
       ],
       "services": {
